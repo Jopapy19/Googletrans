@@ -1,0 +1,2 @@
+pip install -r requirements.txt  -- To install requirements manually
+conda env list  -- display all the  environments

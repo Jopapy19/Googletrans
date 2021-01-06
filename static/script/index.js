@@ -1,1 +1,1 @@
-// remove thie comment
+// remove the comment
