@@ -1,2 +1,2 @@
 # Googletrans
-Google Translate API using AJAX API end_to_end project
+Google Translate API for Python using AJAX API and CICD project demo.
