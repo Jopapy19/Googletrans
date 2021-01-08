@@ -12,7 +12,29 @@ Hoaje
 
 
 {% block body %}
-<!--h1>Hello geeks from Flask</h1-->
+
+<!--NAV BLOCK-->
+<!--nav class="navbar navbar-light" style="background-color: #a5d0ee;"-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navbar content -->
+    <a class="navbar-brand" href="/">Hoaje Translator</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Jopapy19/hoaje-translator">code</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+<br>
+<br>
 <div class="container-fluid">
     <div class="container">
         <div class="row">
@@ -28,13 +50,13 @@ Hoaje
                         <label for="select-language"><strong>Translate to:</strong></label>
                         <select class="form-control" name="select-language">
                             <option value="sq">Albanian</option>
-                            <option value="af">Afrikaans</option> 
+                            <option value="af">Afrikaans</option>
                             <option value="ar">Arabic</option>
-                            <option value="am">Amharic</option> 
+                            <option value="am">Amharic</option>
                             <option value="hy">Armenian</option>
-                            <option value="az">Azerbaijani</option> 
+                            <option value="az">Azerbaijani</option>
                             <option value="eu">Basque</option>
-                            <option value="be">Belarusian</option> 
+                            <option value="be">Belarusian</option>
                             <option value="bn">Bengali</option>
                             <option value="bs">Bosnian</option>
                             <option value="bg">Bulgarian</option>
@@ -132,16 +154,16 @@ Hoaje
                             <option value="xh">Xhosa</option>
                             <option value="yi">Yiddish</option>
                             <option value="yo">Yoruba</option>
-                            <option value="zu">Zulu</option>             
+                            <option value="zu">Zulu</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">Translate text</button></br>
-                </br>
-                </form> 
+                    </br>
+                </form>
                 <!--Translate text returned by the Tanslate API is rendered here.-->
             </div>
             <div class="col">
-                <form >
+                <form>
                     <div class="form-group">
                         <label for="translation-result"><strong>Translated text:</strong></label>
                         <textarea readonly class=" form-control" rows="5">{{ translation_result }}</textarea>
