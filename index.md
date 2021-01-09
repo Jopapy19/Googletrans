@@ -2,9 +2,9 @@
 
 You can use this friendly [application demo](https://github.com/Jopapy19/hoaje-translator/edit/gh-pages/index.md) in order to translate a word or sentences.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-###  [Click link for further information:](https://py-googletrans.readthedocs.io/en/latest/)
+
+###  [Click link for further information](https://py-googletrans.readthedocs.io/en/latest/)
 
 - Installing: googletrans==3.1.0a0
 
