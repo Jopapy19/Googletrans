@@ -1,7 +1,7 @@
 ## Welcome to Hoaje
 
 You can use this friendly [application demo](https://github.com/Jopapy19/hoaje-translator/edit/gh-pages/index.md) in order to translate a word or sentences.
-
+Transformer model to translate multiples languages. This is a demo example that assumes knowledge of text generation and attention. Ideally a transformer handle variable-sized input using stacks of self-attention layers instead of RNNs or CNNs.
 
 
 ###  [Click link for further information](https://py-googletrans.readthedocs.io/en/latest/)
