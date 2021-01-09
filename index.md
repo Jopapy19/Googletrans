@@ -10,7 +10,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 - Create new environment for package management:
 
-    -With Conda: 
+    - With Conda: 
 	         create -n env_name python==YOUR_PYTHON_VERVION
 	         conda activate env_name
 				
