@@ -23,9 +23,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
         heroku login
         heroku authorizations:create -d "getting started token"
 
-- GET TOKEN FOR VSCODE:
-  vscode://vscode.github-authentication/did-authenticate?windowid=1&code=0021c11c7797c8b434d9&state=4ab18909-c3f7-4ae7-932c-0ecfa989889a 
- 
+
 
 #
 ### Support or Contact
