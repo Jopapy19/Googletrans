@@ -9,13 +9,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - Installing: googletrans==3.1.0a0
 
 - Create new environment for package management:
-    -- With Conda: 
+    -With Conda: 
 	         create -n env_name python==YOUR_PYTHON_VERVION
 	         conda activate env_name
 				
-	-- Virtual environment: Only for windows
+    - Virtual environment: Only for windows
 	         py -m venv env
-			.\env\Scripts\activate
+		 .\env\Scripts\activate
 	
 
 - Visit: devcenter.heroku.com/articles/platform-api-quickstart
